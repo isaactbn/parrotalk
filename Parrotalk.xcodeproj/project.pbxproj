@@ -1,0 +1,597 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4BF021182C5A194100A1CE12 /* ParrotalkApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BF021172C5A194100A1CE12 /* ParrotalkApp.swift */; };
+		4BF0211A2C5A194100A1CE12 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BF021192C5A194100A1CE12 /* ContentView.swift */; };
+		4BF0211C2C5A194100A1CE12 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BF0211B2C5A194100A1CE12 /* Item.swift */; };
+		4BF0211E2C5A194200A1CE12 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4BF0211D2C5A194200A1CE12 /* Assets.xcassets */; };
+		4BF021212C5A194200A1CE12 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4BF021202C5A194200A1CE12 /* Preview Assets.xcassets */; };
+		4BF0212B2C5A194200A1CE12 /* ParrotalkTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BF0212A2C5A194200A1CE12 /* ParrotalkTests.swift */; };
+		4BF021352C5A194200A1CE12 /* ParrotalkUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BF021342C5A194200A1CE12 /* ParrotalkUITests.swift */; };
+		4BF021372C5A194200A1CE12 /* ParrotalkUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BF021362C5A194200A1CE12 /* ParrotalkUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4BF021272C5A194200A1CE12 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4BF0210C2C5A194100A1CE12 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4BF021132C5A194100A1CE12;
+			remoteInfo = Parrotalk;
+		};
+		4BF021312C5A194200A1CE12 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4BF0210C2C5A194100A1CE12 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4BF021132C5A194100A1CE12;
+			remoteInfo = Parrotalk;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4BF021142C5A194100A1CE12 /* Parrotalk.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Parrotalk.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4BF021172C5A194100A1CE12 /* ParrotalkApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParrotalkApp.swift; sourceTree = "<group>"; };
+		4BF021192C5A194100A1CE12 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		4BF0211B2C5A194100A1CE12 /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
+		4BF0211D2C5A194200A1CE12 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4BF021202C5A194200A1CE12 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		4BF021262C5A194200A1CE12 /* ParrotalkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ParrotalkTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4BF0212A2C5A194200A1CE12 /* ParrotalkTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParrotalkTests.swift; sourceTree = "<group>"; };
+		4BF021302C5A194200A1CE12 /* ParrotalkUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ParrotalkUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4BF021342C5A194200A1CE12 /* ParrotalkUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParrotalkUITests.swift; sourceTree = "<group>"; };
+		4BF021362C5A194200A1CE12 /* ParrotalkUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParrotalkUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4BF021112C5A194100A1CE12 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4BF021232C5A194200A1CE12 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4BF0212D2C5A194200A1CE12 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4BF0210B2C5A194100A1CE12 = {
+			isa = PBXGroup;
+			children = (
+				4BF021162C5A194100A1CE12 /* Parrotalk */,
+				4BF021292C5A194200A1CE12 /* ParrotalkTests */,
+				4BF021332C5A194200A1CE12 /* ParrotalkUITests */,
+				4BF021152C5A194100A1CE12 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4BF021152C5A194100A1CE12 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4BF021142C5A194100A1CE12 /* Parrotalk.app */,
+				4BF021262C5A194200A1CE12 /* ParrotalkTests.xctest */,
+				4BF021302C5A194200A1CE12 /* ParrotalkUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4BF021162C5A194100A1CE12 /* Parrotalk */ = {
+			isa = PBXGroup;
+			children = (
+				4BF021172C5A194100A1CE12 /* ParrotalkApp.swift */,
+				4BF021192C5A194100A1CE12 /* ContentView.swift */,
+				4BF0211B2C5A194100A1CE12 /* Item.swift */,
+				4BF0211D2C5A194200A1CE12 /* Assets.xcassets */,
+				4BF0211F2C5A194200A1CE12 /* Preview Content */,
+			);
+			path = Parrotalk;
+			sourceTree = "<group>";
+		};
+		4BF0211F2C5A194200A1CE12 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				4BF021202C5A194200A1CE12 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		4BF021292C5A194200A1CE12 /* ParrotalkTests */ = {
+			isa = PBXGroup;
+			children = (
+				4BF0212A2C5A194200A1CE12 /* ParrotalkTests.swift */,
+			);
+			path = ParrotalkTests;
+			sourceTree = "<group>";
+		};
+		4BF021332C5A194200A1CE12 /* ParrotalkUITests */ = {
+			isa = PBXGroup;
+			children = (
+				4BF021342C5A194200A1CE12 /* ParrotalkUITests.swift */,
+				4BF021362C5A194200A1CE12 /* ParrotalkUITestsLaunchTests.swift */,
+			);
+			path = ParrotalkUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4BF021132C5A194100A1CE12 /* Parrotalk */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4BF0213A2C5A194200A1CE12 /* Build configuration list for PBXNativeTarget "Parrotalk" */;
+			buildPhases = (
+				4BF021102C5A194100A1CE12 /* Sources */,
+				4BF021112C5A194100A1CE12 /* Frameworks */,
+				4BF021122C5A194100A1CE12 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Parrotalk;
+			productName = Parrotalk;
+			productReference = 4BF021142C5A194100A1CE12 /* Parrotalk.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4BF021252C5A194200A1CE12 /* ParrotalkTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4BF0213D2C5A194200A1CE12 /* Build configuration list for PBXNativeTarget "ParrotalkTests" */;
+			buildPhases = (
+				4BF021222C5A194200A1CE12 /* Sources */,
+				4BF021232C5A194200A1CE12 /* Frameworks */,
+				4BF021242C5A194200A1CE12 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4BF021282C5A194200A1CE12 /* PBXTargetDependency */,
+			);
+			name = ParrotalkTests;
+			productName = ParrotalkTests;
+			productReference = 4BF021262C5A194200A1CE12 /* ParrotalkTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4BF0212F2C5A194200A1CE12 /* ParrotalkUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4BF021402C5A194200A1CE12 /* Build configuration list for PBXNativeTarget "ParrotalkUITests" */;
+			buildPhases = (
+				4BF0212C2C5A194200A1CE12 /* Sources */,
+				4BF0212D2C5A194200A1CE12 /* Frameworks */,
+				4BF0212E2C5A194200A1CE12 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4BF021322C5A194200A1CE12 /* PBXTargetDependency */,
+			);
+			name = ParrotalkUITests;
+			productName = ParrotalkUITests;
+			productReference = 4BF021302C5A194200A1CE12 /* ParrotalkUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4BF0210C2C5A194100A1CE12 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					4BF021132C5A194100A1CE12 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					4BF021252C5A194200A1CE12 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = 4BF021132C5A194100A1CE12;
+					};
+					4BF0212F2C5A194200A1CE12 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = 4BF021132C5A194100A1CE12;
+					};
+				};
+			};
+			buildConfigurationList = 4BF0210F2C5A194100A1CE12 /* Build configuration list for PBXProject "Parrotalk" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4BF0210B2C5A194100A1CE12;
+			productRefGroup = 4BF021152C5A194100A1CE12 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4BF021132C5A194100A1CE12 /* Parrotalk */,
+				4BF021252C5A194200A1CE12 /* ParrotalkTests */,
+				4BF0212F2C5A194200A1CE12 /* ParrotalkUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4BF021122C5A194100A1CE12 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4BF021212C5A194200A1CE12 /* Preview Assets.xcassets in Resources */,
+				4BF0211E2C5A194200A1CE12 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4BF021242C5A194200A1CE12 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4BF0212E2C5A194200A1CE12 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4BF021102C5A194100A1CE12 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4BF0211A2C5A194100A1CE12 /* ContentView.swift in Sources */,
+				4BF0211C2C5A194100A1CE12 /* Item.swift in Sources */,
+				4BF021182C5A194100A1CE12 /* ParrotalkApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4BF021222C5A194200A1CE12 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4BF0212B2C5A194200A1CE12 /* ParrotalkTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4BF0212C2C5A194200A1CE12 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4BF021352C5A194200A1CE12 /* ParrotalkUITests.swift in Sources */,
+				4BF021372C5A194200A1CE12 /* ParrotalkUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4BF021282C5A194200A1CE12 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4BF021132C5A194100A1CE12 /* Parrotalk */;
+			targetProxy = 4BF021272C5A194200A1CE12 /* PBXContainerItemProxy */;
+		};
+		4BF021322C5A194200A1CE12 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4BF021132C5A194100A1CE12 /* Parrotalk */;
+			targetProxy = 4BF021312C5A194200A1CE12 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		4BF021382C5A194200A1CE12 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4BF021392C5A194200A1CE12 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4BF0213B2C5A194200A1CE12 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Parrotalk/Preview Content\"";
+				DEVELOPMENT_TEAM = WHG3N2U8WV;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "siri-us.Parrotalk";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4BF0213C2C5A194200A1CE12 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Parrotalk/Preview Content\"";
+				DEVELOPMENT_TEAM = WHG3N2U8WV;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "siri-us.Parrotalk";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		4BF0213E2C5A194200A1CE12 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = WHG3N2U8WV;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "siri-us.ParrotalkTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Parrotalk.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Parrotalk";
+			};
+			name = Debug;
+		};
+		4BF0213F2C5A194200A1CE12 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = WHG3N2U8WV;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "siri-us.ParrotalkTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Parrotalk.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Parrotalk";
+			};
+			name = Release;
+		};
+		4BF021412C5A194200A1CE12 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = WHG3N2U8WV;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "siri-us.ParrotalkUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Parrotalk;
+			};
+			name = Debug;
+		};
+		4BF021422C5A194200A1CE12 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = WHG3N2U8WV;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "siri-us.ParrotalkUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Parrotalk;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4BF0210F2C5A194100A1CE12 /* Build configuration list for PBXProject "Parrotalk" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4BF021382C5A194200A1CE12 /* Debug */,
+				4BF021392C5A194200A1CE12 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4BF0213A2C5A194200A1CE12 /* Build configuration list for PBXNativeTarget "Parrotalk" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4BF0213B2C5A194200A1CE12 /* Debug */,
+				4BF0213C2C5A194200A1CE12 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4BF0213D2C5A194200A1CE12 /* Build configuration list for PBXNativeTarget "ParrotalkTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4BF0213E2C5A194200A1CE12 /* Debug */,
+				4BF0213F2C5A194200A1CE12 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4BF021402C5A194200A1CE12 /* Build configuration list for PBXNativeTarget "ParrotalkUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4BF021412C5A194200A1CE12 /* Debug */,
+				4BF021422C5A194200A1CE12 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4BF0210C2C5A194100A1CE12 /* Project object */;
+}
